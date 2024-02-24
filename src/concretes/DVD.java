@@ -3,12 +3,12 @@ package concretes;
 import interfaces.LibraryItem;
 
 // DVD class
-public class DVD implements LibraryItem {
+public class Dvd implements LibraryItem {
   private String title;
   private String director;
   private boolean borrowed;
 
-  public DVD(String title, String director) {
+  public Dvd(String title, String director) {
     this.title = title;
     this.director = director;
     this.borrowed = false;
