@@ -17,6 +17,9 @@ public class Main {
 
     // Borrow some items
     student1.borrowItem(book1);
+    student1.borrowItem(book1);
+    student1.borrowItem(book1);
+    student1.borrowItem(book1);
     teacher1.borrowItem(dvd1);
 
     // Print borrowed items
